@@ -1,0 +1,90 @@
+/* Style/Navbar.css */
+
+/* General styles */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+img {
+    height: 40px;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.search i {
+    margin-right: 10px;
+}
+
+.search .input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+button {
+    background: none;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    button {
+        width: auto;
+        padding: 10px;
+        margin: 5px 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .search .input {
+        width: calc(100% - 40px);
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+
+.boxes{
+    gap: 10 px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.boxes .A img,.B img,.C img,.D img{
+
+    height: 150px;
+    width: 300px;
+}

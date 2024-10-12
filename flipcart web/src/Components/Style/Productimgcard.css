@@ -1,0 +1,15 @@
+.main{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 40px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card1 img,.card2 img,.card3 img,.card4 img,.card5 img,.card6 img,.card7 img,.card8 img,.card9 img,.card10 img,.card11 img,.card12 img{
+        height: 250px;
+        width: 350px;
+}
